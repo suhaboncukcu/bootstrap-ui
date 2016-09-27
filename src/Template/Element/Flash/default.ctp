@@ -6,6 +6,8 @@ $classes = "";
 foreach ($class as $cs) {
 	$classes .= $cs." ";
 }
+
+$classes = str_replace('alert','error visible', $classes);
 ?>
 
 
