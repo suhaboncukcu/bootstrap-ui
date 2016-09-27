@@ -4,9 +4,6 @@ $message = (isset($params['escape']) && $params['escape'] === false) ? $message 
 
 $classes = "";
 foreach ($class as $cs) {
-	if($cs == 'alert') {
-		$cs = 'error';
-	}
 	$classes .= $cs." ";
 }
 ?>
